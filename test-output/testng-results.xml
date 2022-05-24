@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Success 200 validation GetListUsers]]>
+    </line>
+    <line>
+      <![CDATA[Success 200 validation GetSingleUser]]>
+    </line>
+    <line>
+      <![CDATA[Success 200 validation GetListResource]]>
+    </line>
+    <line>
+      <![CDATA[Success 200 validation GetSingleResource]]>
+    </line>
+    <line>
+      <![CDATA[200 OK PostCreateUser]]>
+    </line>
+    <line>
+      <![CDATA[200 OK PostRegisterSuccess]]>
+    </line>
+    <line>
+      <![CDATA[200 OK PostLoginSuccess]]>
+    </line>
+    <line>
+      <![CDATA[400 Missing password PostLoginUnsuccessful]]>
+    </line>
+    <line>
+      <![CDATA[200 OK PutUpdateUser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-05-12T07:44:40 CDT" name="Default suite" finished-at="2022-05-12T07:44:51 CDT" duration-ms="10236">
+    <groups>
+    </groups>
+    <test started-at="2022-05-12T07:44:40 CDT" name="Default test" finished-at="2022-05-12T07:44:51 CDT" duration-ms="10236">
+      <class name="finalpullrequest.FinalPullRequest">
+        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:finalpullrequest.FinalPullRequest@2b48a640]" started-at="2022-05-12T07:44:40 CDT" name="BeforeSuite" finished-at="2022-05-12T07:44:40 CDT" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method signature="MainTests()[pri:0, instance:finalpullrequest.FinalPullRequest@2b48a640]" started-at="2022-05-12T07:44:40 CDT" name="MainTests" finished-at="2022-05-12T07:44:51 CDT" duration-ms="10175" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Success 200 validation GetListUsers]]>
+            </line>
+            <line>
+              <![CDATA[Success 200 validation GetSingleUser]]>
+            </line>
+            <line>
+              <![CDATA[Success 200 validation GetListResource]]>
+            </line>
+            <line>
+              <![CDATA[Success 200 validation GetSingleResource]]>
+            </line>
+            <line>
+              <![CDATA[200 OK PostCreateUser]]>
+            </line>
+            <line>
+              <![CDATA[200 OK PostRegisterSuccess]]>
+            </line>
+            <line>
+              <![CDATA[200 OK PostLoginSuccess]]>
+            </line>
+            <line>
+              <![CDATA[400 Missing password PostLoginUnsuccessful]]>
+            </line>
+            <line>
+              <![CDATA[200 OK PutUpdateUser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MainTests -->
+      </class> <!-- finalpullrequest.FinalPullRequest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
